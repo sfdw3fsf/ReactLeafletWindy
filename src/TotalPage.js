@@ -119,8 +119,8 @@ function TotalPage() {
         {/* Pass center and zoom props to WindyMap */}
         <WindyMap markers={markers} />
         {/* Wrap FormAddBoat with withRouter */}
-        <FormAddBoat markers={markers} ship={ship} setMarkers={setMarkers} />
       </div>
+      <div className='formAdd'> <FormAddBoat markers={markers} ship={ship} setMarkers={setMarkers} /></div>
     </div>
   );
 }

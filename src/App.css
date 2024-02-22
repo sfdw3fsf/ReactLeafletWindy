@@ -166,9 +166,12 @@
 .popUpContainer {
   display: flex; /* Apply flexbox layout */
   align-items: center; /* Align items vertically */
-  /* flex-direction: column; */
+  flex-direction: column;
 }
-
+.imgInfor {
+  display: flex; /* Apply flexbox layout */
+  align-items: center; /* Align items vertically */
+}
 .shipImg {
   margin-right: 15px; /* Add some spacing between image and ship info */
 }
@@ -229,7 +232,7 @@
 
 .popupButton {
   padding: 8px;
-  width: 146px;
+  width: 133px;
   /* background-color: #4caf50; */
   color: white;
   border: none;

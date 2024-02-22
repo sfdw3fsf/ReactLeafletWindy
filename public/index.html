@@ -1,18 +1,28 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Your App Title</title>
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
     />
+    <script
+      script
+      src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"
+      defer
+    ></script>
+    <script
+      src="https://api.windy.com/assets/map-forecast/libBoot.js"
+      defer
+    ></script>
+
+    <style>
+      #windy {
+        width: 100%;
+        height: 300px;
+      }
+    </style>
   </head>
   <body>
     <div id="root"></div>
-
-    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
-    <script src="https://api.windy.com/assets/map-forecast/libBoot.js"></script>
+    <!-- <script src="script.js"></script> -->
   </body>
 </html>

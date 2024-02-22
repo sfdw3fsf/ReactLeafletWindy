@@ -14,5 +14,6 @@ code {
 /* Add your own styles here */
 #windy {
   width: 100vw;
-  height: 100vh; /* Adjust the height as needed */
+  height: 100vh;
+  z-index: 0; /* Adjust the height as needed */
 }
